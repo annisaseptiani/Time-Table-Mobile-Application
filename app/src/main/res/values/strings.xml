@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Splashing</string>
+    <string-array name="day">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunnday</item>
+    </string-array>
+</resources>

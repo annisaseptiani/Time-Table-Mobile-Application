@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:background="#FFFFF0"
+        tools:context="com.example.debarghya.splashing.Input">
+
+
+        <TextView
+            android:text="DAY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View All"
+            android:id="@+id/button_viewAll"
+            android:background="#A9A9A9"
+            android:layout_alignTop="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button"
+            android:layout_marginLeft="52dp"
+            android:layout_marginStart="52dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/button_update"
+            android:layout_marginTop="21dp"
+            android:background="#A9A9A9"
+            android:layout_below="@+id/button"
+            android:layout_toLeftOf="@+id/button_viewAll"
+            android:layout_toStartOf="@+id/button_viewAll" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/button_delete"
+            android:layout_above="@+id/button_clear"
+            android:background="#A9A9A9"
+            android:layout_alignLeft="@+id/button_viewAll"
+            android:layout_alignStart="@+id/button_viewAll" />
+
+        <Button
+            android:text="Clear All"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A9A9A9"
+            android:id="@+id/button_clear"
+            android:layout_below="@+id/button_update"
+            android:layout_alignLeft="@+id/button_update"
+            android:layout_alignStart="@+id/button_update"
+            android:layout_marginTop="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:text="ID"
+            android:id="@+id/textView_id"
+            android:layout_below="@+id/editsubject"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText_ID"
+            android:layout_alignTop="@+id/textView_id"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/edittime"
+            android:layout_alignEnd="@+id/edittime"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignLeft="@+id/edittime"
+            android:layout_alignStart="@+id/edittime" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edittime"
+            android:layout_marginRight="23dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/spinner"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="TIME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_alignBottom="@+id/edittime"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:layout_marginTop="32dp"
+            android:id="@+id/editsubject"
+            android:layout_below="@+id/edittime"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3" />
+
+        <TextView
+            android:text="SUBJECT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_alignTop="@+id/editsubject"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <Button
+            android:text="Add Data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/button"
+            android:background="#A9A9A9"
+            android:layout_below="@+id/editText_ID"
+            android:layout_toLeftOf="@+id/editsubject"
+            android:layout_toStartOf="@+id/editsubject" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
